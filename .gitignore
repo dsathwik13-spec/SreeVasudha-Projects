@@ -1,13 +1,39 @@
+# Operating System files
 .DS_Store
-*.py
-*.txt
-*.log
+Thumbs.db
+desktop.ini
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dependencies
 node_modules/
-.env
-.next/
 admin-portal/node_modules/
+
+# Environment and Credentials
+.env
+.env.*
+admin-portal/.env
+admin-portal/.env.*
+*.pem
+*.key
+*.cert
+*.crt
+
+# Build / Output
+.next/
 admin-portal/.next/
 admin-portal/out/
 admin-portal/build/
-admin-portal/.env
-admin-portal/.env.local
+admin-portal/tsconfig.tsbuildinfo
+admin-portal/next-env.d.ts
+
+# Logs
+*.log
+
+# Scripts / Notes
+*.py
+*.txt
